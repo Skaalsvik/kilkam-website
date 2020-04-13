@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IF Kilkameratene</title>
+    <script src="https://kit.fontawesome.com/acd032f5f8.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="hjem/images/kilkam-logo.svg">
+    <link rel="stylesheet" href="hjem/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=B612&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <div id="fb-root"></div>
+    <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+</head>
+
+<body>
+    <!-- 
+
+
+
+░██████╗██╗░░██╗░█████╗░░█████╗░██╗░░░░░░██████╗██╗░░░██╗██╗██╗░░██╗
+██╔════╝██║░██╔╝██╔══██╗██╔══██╗██║░░░░░██╔════╝██║░░░██║██║██║░██╔╝
+╚█████╗░█████═╝░███████║███████║██║░░░░░╚█████╗░╚██╗░██╔╝██║█████═╝░
+░╚═══██╗██╔═██╗░██╔══██║██╔══██║██║░░░░░░╚═══██╗░╚████╔╝░██║██╔═██╗░
+██████╔╝██║░╚██╗██║░░██║██║░░██║███████╗██████╔╝░░╚██╔╝░░██║██║░╚██╗
+╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚══════╝╚═════╝░░░░╚═╝░░░╚═╝╚═╝░░╚═╝
+
+PITCH HER!!
+
+
+ -->
+    <!-- <div class="announcement-bar">
+        <div class="announcement-bar-container">
+            <i class="fas fa-info"></i>
+            <p>Tianhallen er foreløpig stengt på grunn av coronapandemien. Informasjon kommer fortløpende</p>
+            <button onclick="exitButtonClicked()"><i class="fas fa-times exit-icon"></i></button>
+        </div>
+    </div> -->
+    <div class="center"></div>
+    <div class="header">
+        <div class="mobile-menu">
+            <a href="javascript:void(0);" class="" onclick="myFunction()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </a>
+        </div>
+        <div class="menu">
+            <img src="hjem/images/kilkam-logo.svg" class="logo" alt="">
+            <ul class="navbar">
+                <li><a href=""></a>Bli medlem!</li>
+                <li><a href=""></a>Om klubben</li>
+                <li><a href=""></a>Klubbdrift</li>
+                <li><a href=""></a>Ski</li>
+                <li><a href=""></a>Fotball</li>
+                <li><a href=""></a>Utleie</li>
+                <li><a href=""></a>Kontakt oss</li>
+            </ul>
+        </div>
+        <!-- <div class="fixtures">
+            <div class="white match-container">
+                <img src="hjem/images/fixturesdemo/mjølner.png" class="home-team" alt="">
+                <div class="match-info">
+                    <h1>20:00</h1>
+                    <p>2 Januar 2020</p>
+                </div>
+                <img src="hjem/images/fixturesdemo/kilkam.png" alt="">
+            </div>
+            <div class="match-container">
+                <img src="hjem/images/fixturesdemo/kilkam.png" alt="" class="home-team">
+                <div class="match-info">
+                    <h1>20:00</h1>
+                    <p>2 Januar 2020</p>
+                </div>
+                <img src="hjem/images/fixturesdemo/BT.png" alt="">
+            </div>
+            <div class="white match-container">
+                <img src="hjem/images/fixturesdemo/leknes.png" alt="" class="home-team">
+                <div class="match-info">
+                    <h1>20:00</h1>
+                    <p>2 Januar 2020</p>
+                </div>
+                <img src="hjem/images/fixturesdemo/kilkam.png" alt="">
+            </div>
+            <div class="match-container">
+                <img src="hjem/images/fixturesdemo/kilkam.png" alt="" class="home-team">
+                <div class="match-info">
+                    <h1>20:00</h1>
+                    <p>2 Januar 2020</p>
+                </div>
+                <img src="hjem/images/fixturesdemo/HIL.png" alt="">
+            </div>
+            <div class="white match-container">
+                <img src="hjem/images/fixturesdemo/landsås.png" alt="" class="home-team">
+                <div class="match-info">
+                    <h1>20:00</h1>
+                    <p>2 Januar 2020</p>
+                </div>
+                <img src="hjem/images/fixturesdemo/kilkam.png" alt="">
+            </div>
+            <div class="match-container">
+                <img src="hjem/images/fixturesdemo/kilkam.png" alt="" class="home-team">
+                <div class="match-info">
+                    <h1>20:00</h1>
+                    <p>2 Januar 2020</p>
+                </div>
+                <img src="hjem/images/fixturesdemo/medkila.png" alt="">
+            </div>
+            <div class="white match-container">
+                <img src="hjem/images/fixturesdemo/grovfjord.png" alt="" class="home-team">
+                <div class="match-info">
+                    <h1>20:00</h1>
+                    <p>2 Januar 2020</p>
+                </div>
+                <img src="hjem/images/fixturesdemo/kilkam.png" alt="">
+            </div>
+            <div class="match-container">
+                <img src="hjem/images/fixturesdemo/kilkam.png" alt="" class="home-team">
+                <div class="match-info">
+                    <h1>20:00</h1>
+                    <p>2 Januar 2020</p>
+                </div>
+                <img src="hjem/images/fixturesdemo/smil.png" alt="">
+            </div>
+            <div class="white match-container">
+                <img src="hjem/images/fixturesdemo/sortland.png" alt="" class="home-team">
+                <div class="match-info">
+                    <h1>20:00</h1>
+                    <p>2 Januar 2020</p>
+                </div>
+                <img src="hjem/images/fixturesdemo/kilkam.png" alt="">
+            </div>
+        </div> -->
+    </div>
+    
+    <div class="slideshow">
+        <figure>
+            <div class="slide-container">
+                <div id="lastClone" class="slide-img" style="background-image: url('hjem/images/Slideshow-demo/08NYHTianhallen.jpg');"></div>
+                <div class="gradient"></div>
+                <h1>siste</h1>
+            </div>
+            <div class="slide-container">
+                <div class="slide-img" style="background-image: url('hjem/images/Slideshow-demo/08NYHTianhallen.jpg');"></div>
+                <div class="gradient"></div>
+                <h1>Første</h1>
+            </div>
+            <div class="slide-container">
+                <a href="PAGE LINK"><div class="slide-img" style="background-image: url('hjem/images/Slideshow-demo/08NYHTianhallen.jpg');"></div></a>
+                <div class="gradient"></div>
+                <h1>Dette er en lang overskrift om at tianhallen er åpen!</h1>
+            </div>
+            <div class="slide-container">
+                <div class="slide-img" style="background-image: url('hjem/images/Slideshow-demo/tianhallen.jpg');"></div>
+                <div class="gradient"></div>
+                <h1>Siste</h1>
+            </div>
+            <div class="slide-container">
+                <div id="firstClone" class="slide-img" style="background-image: url('hjem/images/Slideshow-demo/08NYHTianhallen.jpg');"></div>
+                <div class="gradient"></div>
+                <h1>Første</h1>
+            </div>
+        </figure>
+        <!-- <div class="gradient"></div> -->
+        <div class="controller">
+            <button class="btn-1" onclick="btnClicked(1)"></button>
+            <button class="btn-1" onclick="btnClicked(2)"></button>
+            <button class="btn-1" onclick="btnClicked(3)"></button>
+        </div>
+        <!-- <h1 class="1">Tianhallen er åpen</h1> -->
+        <button class="arrow right-arrow next-btn"></button>
+        <button class="arrow left-arrow prev-btn"></button>
+    </div>
+    <div class="attention-grabber-element">
+        <div class="attention-grabber">
+            <div class="attention-grabber-content">
+                <div class="attention-grabber-item item1 hover-img">
+                    <div class="attention-grabber-item-content-type">
+                        <div class="video"></div>
+                    </div>
+                    <h1 class="attention-grabber-item-title">Koronatrening med Christoffer som var ei lang setning</h1>
+                    <p class="attention-grabber-item-date"><img src="hjem/images/clock.svg">23 mars 2020</p>
+                    <div class="attention-grabber-gradient gradient1"></div>
+                    <!-- <div class="attention-grabber-image-container1">
+                        <img class="attention-grabber-img" src="hjem/images/coronatrening-med-christoffer.svg" alt="">
+                    </div> -->
+                </div>
+                <div class="attention-grabber-item item2 hover-img">
+                    <div class="attention-grabber-item-content-type">
+                        <div class="blog"></div>
+                    </div>
+                    <h1 class="attention-grabber-item-title">Kilkamturneringen var velykket!</h1>
+                    <p class="attention-grabber-item-date"><img src="hjem/images/clock.svg">24 august 2019</p>
+                    <div class="attention-grabber-gradient gradient2"></div>
+                </div>
+                <div class="attention-grabber-item item3 hover-img">
+                    <div class="attention-grabber-item-content-type">
+                        <div class="facebook"></div>
+                    </div>
+                    <h1 class="attention-grabber-item-title">Tianhallens åpning gjennomført</h1>
+                    <p class="attention-grabber-item-date"><img src="hjem/images/clock.svg">2 juni 2019</p>
+                    <div class="attention-grabber-gradient gradient3"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="nyheter-element">
+        <div class="nyheter-container">
+            <div class="nyheter">
+                <h1 class="siste-nytt">Siste nytt</h1>
+                <div class="news-grid">
+                    <div class="news-grid-item news-grid-item1 small">
+                        <div class="lower-half">
+                            <div class="news-grid-item-gradient"></div>
+                            <h1>Lorem ipsum dolor sit amet</h1>
+                            <p><img src="hjem/images/clock.svg" alt="">23 Mars 2020</p>
+                        </div>
+                    </div>
+                    <div class="news-grid-item news-grid-item2 wide">
+                        <div class="lower-half">
+                            <div class="news-grid-item-gradient"></div>
+                            <h1>Lorem ipsum dolor sit amet</h1>
+                            <p><img src="hjem/images/clock.svg" alt="">23 Mars 2020</p>
+                        </div>
+                    </div>
+                    <div class="news-grid-item news-grid-item3 wide">
+                        <div class="lower-half">
+                            <div class="news-grid-item-gradient"></div>
+                            <h1>Lorem ipsum dolor sit amet</h1>
+                            <p><img src="hjem/images/clock.svg" alt="">23 Mars 2020</p>
+                        </div>
+                    </div>
+                    <div class="news-grid-item news-grid-item4 tall">
+                        <div class="lower-half">
+                            <div class="news-grid-item-gradient"></div>
+                            <h1>Lorem ipsum dolor sit amet</h1>
+                            <p><img src="hjem/images/clock.svg" alt="">23 Mars 2020</p>
+                        </div>
+                    </div>
+                    <div class="news-grid-item news-grid-item5 small">
+                        <div class="lower-half">
+                            <div class="news-grid-item-gradient"></div>
+                            <h1>Lorem ipsum dolor sit amet</h1>
+                            <p><img src="hjem/images/clock.svg" alt="">23 Mars 2020</p>
+                        </div>
+                    </div>
+                    <div class="news-grid-item news-grid-item6 small">
+                        <div class="lower-half">
+                            <div class="news-grid-item-gradient"></div>
+                            <h1>Lorem ipsum dolor sit amet</h1>
+                            <p><img src="hjem/images/clock.svg" alt="">23 Mars 2020</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="www.google.com"><button class="se-mer-button siste-nytt-button">Se mer</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="hva-skjer-element">
+        <div class="hva-skjer">
+            <h1 class="hva-skjer-title">hva skjer</h1>
+            <div class="countdown-container">
+                <div class="countdown-items countdown-item1">
+                    <div class="countdown-items-info">
+                        <h1 class="countdown-items-h1">Årsmøte</h1>
+                        <p class="date">3 Juni 2020</p>
+                    </div>
+                    <div class="counter">
+                        <div class="dager">
+                            <h1>12</h1>
+                            <p>Dager</p>
+                        </div>
+                        <div class="timer">
+                            <h1>03</h1>
+                            <p>Timer</p>
+                        </div>
+                        <div class="sekunder">
+                            <h1>12</h1>
+                            <p>Sekunder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="countdown-items countdown-item2">
+                    <div class="countdown-items-info">
+                        <h1 class="countdown-items-h1">Årsmøte</h1>
+                        <p class="date">3 Juni 2020</p>
+                    </div>
+                    <div class="counter">
+                        <div class="dager">
+                            <h1>12</h1>
+                            <p>Dager</p>
+                        </div>
+                        <div class="timer">
+                            <h1>03</h1>
+                            <p>Timer</p>
+                        </div>
+                        <div class="sekunder">
+                            <h1>12</h1>
+                            <p>Sekunder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="countdown-items countdown-item3">
+                    <div class="countdown-items-info">
+                        <h1 class="countdown-items-h1">Årsmøte</h1>
+                        <p class="date">3 Juni 2020</p>
+                    </div>
+                    <div class="counter">
+                        <div class="dager">
+                            <h1>12</h1>
+                            <p>Dager</p>
+                        </div>
+                        <div class="timer">
+                            <h1>03</h1>
+                            <p>Timer</p>
+                        </div>
+                        <div class="sekunder">
+                            <h1>12</h1>
+                            <p>Sekunder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fa-beskjed">
+                <form action="" method="GET">
+                    <input type="email" name="E-postadresse" id="E-postadresse" placeholder="E-postadresse">
+                    <button type="submit" class="se-mer-button">Få beskjed</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="social"> -->
+    <!-- <h1>Sosiale medier</h1> -->
+    <!-- <div class="fb-post" data-href="https://www.facebook.com/ifkilkam/posts/2918898408167724" data-width="350" data-show-text="true"><blockquote cite="https://developers.facebook.com/ifkilkam/posts/2918898408167724" class="fb-xfbml-parse-ignore"><p>Da er løypa til Tennevannet og til Lillehinnstein frisket opp med scooter, rulle og sporsetter!</p>Posted by <a href="https://www.facebook.com/ifkilkam/">IF Kilkameratene</a> on&nbsp;<a href="https://developers.facebook.com/ifkilkam/posts/2918898408167724">Monday, April 6, 2020</a></blockquote></div> -->
+    <!-- <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fifkilkam%2Fposts%2F2918898408167724&width=350" width="350" height="360" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fifkilkam%2Fposts%2F2914767225247509&width=350" width="350" height="670" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fifkilkam%2Fposts%2F2913706802020218&width=350" width="350" height="633" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe> -->
+    <!-- </div> -->
+    <div class="footer">
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="hjem/javascript/script.js"></script>
+</body>
+
+</html>
