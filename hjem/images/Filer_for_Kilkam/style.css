@@ -1,0 +1,591 @@
+/* MAKE RESPONSIVE FOR EVERY SCREEN SIZE!!! */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    outline: transparent;
+}
+
+
+body{
+    background-color: #EBE6DF;
+}
+/* center of screen */
+.center{
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%);
+    background-color: white;
+    z-index: 20;
+    opacity: 0;
+}
+/* effect on image hover
+.hover-img:hover{
+    cursor: pointer;
+    animation-name: animateImgSize;
+    animation-duration: 1s;
+    background-size: 120%;
+}
+@keyframes animateImgSize{
+    from {background-size: 100%;}
+    to {background-size: 120%;}
+} */
+/* header */
+.header{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 15%;
+    background-color: #d32e12;
+}
+
+.logo{
+    transform: translate(0%, -50%);
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    width: 60px;
+    height: 60px;
+    z-index: 20;
+}
+
+.navbar{
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    transform: translate(0%, -50%);
+    width: 100%;
+    height: 20%;
+    text-align: right;
+}
+
+.navbar li{
+    display: inline;
+    right: 0%;
+    padding: 10px;
+    color: white;
+    font-size: 100%;
+    text-transform: uppercase;
+    font-family: 'B612', sans-serif;
+}
+
+
+
+.menu, .fixtures{
+    position: absolute;
+    left: 0%;
+    width: 100%;
+}
+
+.menu{
+    top: 0%;
+    height: 50%;
+    background-color: #0B2C98;
+}
+
+.fixtures{
+    top: 60%;
+    height: 40%;
+    background-color: #dee2e6;
+    display: flex;
+}
+
+.match-container{
+    width: 100%;
+}
+.match-container img{
+    position: relative;
+    left: 00%;
+    top: 0%; 
+}
+.match-info{
+    position: absolute;
+    left: 30%;
+    top: 0%;
+}
+.fixtures div div, .fixtures div img{
+    width: 100%;
+    border: transparent;
+}
+.fixtures div h1{
+    font-size: 16px;
+    text-align: center;
+}  
+.fixtures div p{
+    opacity: 1;
+    text-align: center;
+    font-size: 8px;
+}
+.white{
+    background-color: white;
+}
+/* slideshow */
+.slideshow{
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    width: 100%;
+    height: 85%;
+    background-image: url('../images/tianhallen.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gradient{
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 50%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 30%, rgba(255,255,255,0) 100%);
+}
+
+.slideshow h1{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    font-family: 'B612', sans-serif;
+    /* font-size: 32px; */
+}
+
+.controller{
+    position: absolute;
+    left: 50%;
+    top: 82%;
+    width: 5%;
+    transform: translate(-50%, -50%);
+    height: 3%;
+    display: flex;
+}
+
+.controller div{
+    margin: 3px;
+    width: 100%;
+    background-image: url(../images/ellipse.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.arrow{
+    position: absolute;
+    top: 40%;
+    width: 6%;
+    height: 6%;
+    background-image: url(../images/arrow.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.left-arrow{
+    left: 5%;
+}
+
+.right-arrow{
+    right: 5%;
+    transform: rotate(180deg);
+}
+/* attentiongrabber */
+.attention-grabber{
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    top: 90%;
+    height: 60%;
+    background-color: white;
+    z-index: 2;
+}
+
+.attention-grabber-content{
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    width: 85%;
+    height: 70%;
+    transform: translate(-50%, 0%);
+    display: flex;
+}
+
+.attention-grabber-item{
+    width: 100%;
+}
+
+.attention-grabber-content .item1, .attention-grabber-content .item2, .attention-grabber-content .item3{
+    background-color: white;
+}
+
+.attention-grabber-item-content-type{
+    position: relative;
+    top: 3%;
+    left: 3%;
+    background-color: #3346F5;
+    width: 45px;
+    height: 45px;
+}
+
+.attention-grabber-item-content-type .video{
+    position: relative;
+    left: 30%;
+    top: 30%;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid white;
+    transform: translate(-50%, -50%);
+    transform: rotate(90deg);
+}
+.attention-grabber-item-content-type div{
+    position: relative;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.attention-grabber-item-content-type .blog{
+    background-image: url('../images/blog-icon.svg');
+}
+
+.attention-grabber-item-content-type .facebook{
+    background-image: url('../images/facebook-icon.svg');
+}
+
+.item1 h1, .item2 h1, .item3 h1{
+    color: white;
+    transform: translate(0, -50%);
+    position: relative;
+    top: 70%;
+    left: 5%;
+    width: 90%;
+    font-size: 24px;
+    z-index: 1;
+}
+
+
+.item1 p, .item2 p, .item3 p{
+    position: relative;
+    top: 70%;
+    left: 5%;
+    color: white;
+    z-index: 1;
+}
+
+.item1 p img, .item2 p img, .item3 p img{
+    margin-right: 5px;
+}
+
+.item1, .item2, .item3{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item1{
+    background-image: url('../images/coronatrening-med-christoffer.svg');
+}
+.item2{
+    background-image: url('../images/12SPOKilkamcup1.svg');
+}
+.item3{
+    background-image: url('../images/19SPOfinnhåkonjørstad.svg');
+}
+
+.attention-grabber-gradient{
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 35%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.3) 4%, rgba(255,255,255,0) 100%);
+}
+/* siste nytt */
+.nyheter-container{
+    position: absolute;
+    top: 150%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+.nyheter{
+    position: absolute;
+    height: 65%;
+    top: 10%;
+    left: 15%;
+    right: 15%;
+}
+.siste-nytt{
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #3346F5;
+}
+
+.news-grid{
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    bottom: 0%;
+}
+.small{
+    grid-row: span 1;
+    grid-column: span 1;
+}
+.wide{
+    grid-row: span 2;
+    grid-column: span 1;
+}
+.tall{
+    grid-row: span 2;
+    grid-column: span 1;
+}
+.news-grid-item{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.news-grid-item1{
+    background-image: url('../images/news-demo-img/barnasskidag.jpg');
+}
+.news-grid-item2{
+    background-image: url('../images/news-demo-img/2.jpg');
+}
+.news-grid-item3{
+    background-image: url('../images/news-demo-img/3.jpg');
+}
+.news-grid-item4{
+    background-image: url('../images/news-demo-img/barnasskidag.jpg');
+}
+.news-grid-item5{
+    background-image: url('../images/news-demo-img/barnasskidag.jpg');
+}
+.news-grid-item6{
+    background-image: url('../images/news-demo-img/barnasskidag.jpg');
+}
+
+.lower-half{
+    position: relative;
+    left: 0%;
+    bottom: -50%;
+    width: 100%;
+    height: 50%;
+}
+
+.news-grid-item h1{
+    position: absolute;
+    left: 2%;
+    top: 70%;
+    color: white;
+    width: 60%;
+    height: 20%;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.news-grid-item p{
+    position: relative;
+    left: 2%;
+    top: 85%;
+    font-size: 12px;
+    color: white;
+}
+.news-grid-item p img{
+    padding-right: 5px;
+}
+.small .lower-half h1{
+    top: 50%;
+}
+.small .lower-half p{
+    padding-top: 10px;
+    top: 65%;
+}
+.news-grid-item-gradient{
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 60%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.4) 80%, rgba(255,255,255,0) 100%);
+}
+.se-mer-button{
+    background-color: transparent;
+    border: 2px solid #3346F5;
+    height: 7%;
+    width: 15%;
+    border-radius: 25px;
+    text-transform: uppercase;
+    color: #3346F5;
+    font-weight: bold;
+}
+.se-mer-button:hover{
+    cursor: pointer;
+    animation-name: animateFill;
+    animation-duration: 0.5s;
+    color: white;
+    background-color: #3346F5;
+}
+.siste-nytt-button{
+   transform: translate(-50%);
+   position: absolute;
+   left: 50%;
+   top: 105%;
+}
+
+@keyframes animateFill{
+    from {background-color: rgba(51, 70, 245, 0)}
+    to {background-color: rgba(51, 70, 245, 1); color: white;}
+}
+/* Hva skjer */
+.hva-skjer{
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    background-color: white;
+    top: 240%;
+    height: 50%;
+}
+.hva-skjer-title{
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    top: 10%;
+    color: #3346F5;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.countdown-container{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 80%;
+    height: 40%;
+}
+
+.countdown-items{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 90%;
+    margin-right: 10px;
+    border-radius: 25px;
+    background-color: #3346F5;
+    background: linear-gradient(160deg, rgb(31, 50, 216) 50%, rgba(103,139,255,1) 100%);
+    color: white;
+}
+.countdown-item1{
+    left: 10%;
+    top: 50%;
+}
+.countdown-item2{
+    left: 50%;
+    top: 50%;
+}
+.countdown-item3{
+    left: 90%;
+    top: 50%;
+}
+.countdown-items-info{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.countdown-items-info p{
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    top: 80%;
+    font-size: 12px;
+    color: lightgray;
+}
+.countdown-items-h1{
+    position: absolute;
+    font-size: 24px;
+    transform: translate(-50%);
+    left: 50%;
+    top: 10%;
+}
+.counter{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 80%;
+    height: 25%;
+    display: flex;
+}
+.counter h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+.counter p{
+    font-size: 12px;
+}
+.counter div{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.timer{
+    left: 50%;
+    top: 0%;
+}
+.fa-beskjed{
+    position: absolute;
+    left: 38%;
+    top: 80%;
+    width: 40%;
+    height: 10%;
+}
+.fa-beskjed form input{
+    position: absolute;
+    transform: translate(0%, -50%);
+    top: 50%;
+    width: 60%;
+    height: 60%;
+    border-radius: 25px;
+    background-color: transparent;
+    border-color: #3346F5;
+    overflow: hidden;
+    text-indent: 10px;
+}
+.fa-beskjed form input:focus{
+    background-color: whitesmoke;
+}
+.fa-beskjed form button{
+    position: absolute;
+    transform: translate(0%, -50%);
+    top: 50%;
+    left: 65%;
+    height: 60%;
+    width: 30%;
+}
+
+/* social */
+.social{
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    height: 50%;
+    top: 300%;
+
+}

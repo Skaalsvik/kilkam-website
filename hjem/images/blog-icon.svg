@@ -1,0 +1,13 @@
+<svg id="bubble-speech" xmlns="http://www.w3.org/2000/svg" width="29.106" height="29.106" viewBox="0 0 29.106 29.106">
+  <path id="Path_21" data-name="Path 21" d="M4.5,15.367a3.876,3.876,0,0,0,5.227,5.44,5.815,5.815,0,0,0,10.607.036,6.3,6.3,0,1,0,2.8-12.094,7.274,7.274,0,0,0-14-3.833A5.819,5.819,0,1,0,4.5,15.367Zm0,0" transform="translate(0 0)" fill="#fff"/>
+  <path id="Path_22" data-name="Path 22" d="M20.375,5.821A14.53,14.53,0,0,0,19.521.905,7.268,7.268,0,0,0,9.131,4.916,5.819,5.819,0,1,0,4.5,15.367a3.867,3.867,0,0,0,.684,4.992c.212.009.424.016.638.016A14.553,14.553,0,0,0,20.375,5.821Zm0,0" transform="translate(0 0)" fill="#fff"/>
+  <path id="Path_23" data-name="Path 23" d="M1.94,448.97A.97.97,0,1,1,.97,448,.97.97,0,0,1,1.94,448.97Zm0,0" transform="translate(0 -420.834)" fill="#fff"/>
+  <path id="Path_24" data-name="Path 24" d="M51.881,377.94A1.94,1.94,0,1,1,49.94,376,1.941,1.941,0,0,1,51.881,377.94Zm0,0" transform="translate(-45.089 -353.2)" fill="#fff"/>
+  <g id="Group_19" data-name="Group 19" transform="translate(11.157 1.455)">
+    <path id="Path_25" data-name="Path 25" d="M280,192h.97v.97H280Zm0,0" transform="translate(-274.179 -181.813)" fill="#fff"/>
+    <path id="Path_26" data-name="Path 26" d="M248,192h.97v.97H248Zm0,0" transform="translate(-244.119 -181.813)" fill="#fff"/>
+    <path id="Path_27" data-name="Path 27" d="M216,192h.97v.97H216Zm0,0" transform="translate(-214.06 -181.813)" fill="#fff"/>
+    <path id="Path_28" data-name="Path 28" d="M184,192h.97v.97H184Zm0,0" transform="translate(-184 -181.813)" fill="#fff"/>
+    <path id="Path_29" data-name="Path 29" d="M269.821,29.821h-.97A4.856,4.856,0,0,0,264,24.97V24A5.828,5.828,0,0,1,269.821,29.821Zm0,0" transform="translate(-259.149 -24)" fill="#fff"/>
+  </g>
+</svg>
